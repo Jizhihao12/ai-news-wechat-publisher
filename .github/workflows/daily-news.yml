@@ -2,7 +2,7 @@ name: AI Daily News
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0:00 (北京时间 8:00)
+    - cron: '* * * * *'  # 每天 UTC 0:00 (北京时间 8:00)
   workflow_dispatch:  # 允许手动触发
 
 # 并发控制：防止同时运行多个实例导致冲突
